@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./lib/readfile.js"></script>
+    <script src="./lib/deflate.js"></script>
+    <script src="./lib/encode.js"></script>
+</head>
+<body onload="var text = getContent();
+console.log(text); 
+text = 'http\:\/\/www.plantuml.com\/plantuml\/png\/' + encode64(zip_deflate(text, 9));
+console.log(text);">
+</body>
+</html>

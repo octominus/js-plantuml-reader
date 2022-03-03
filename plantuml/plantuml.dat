@@ -1,0 +1,4 @@
+@startuml
+octo -> minus : hello!
+minus -> octo : hi!
+@enduml
