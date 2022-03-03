@@ -8,6 +8,7 @@
 <body onload="var text = getContent();
 console.log(text); 
 text = 'http\:\/\/www.plantuml.com\/plantuml\/png\/' + encode64(zip_deflate(text, 9));
-console.log(text);">
+console.log(text);document.getElementById('plantuml-img').src = text;">
+<img alt="Diagram" src="" id="plantuml-img"></img>
 </body>
 </html>
